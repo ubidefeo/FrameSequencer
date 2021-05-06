@@ -1,0 +1,19 @@
+{
+    "name": "Frame Sequencer",
+    "keywords": "animation, timing, time, sequence, events, duration",
+    "description": "Sequence numbers based on timed duration, this library can be used to trigger linearly animated/timed events.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ubidefeo/FrameSequencer"
+    },
+    "authors": [{
+        "name": "Ubi de Feo",
+        "email": "me@ubidefeo.com",
+        "url": "http://www.ubidefeo.com",
+        "maintainer": true
+    }],
+    "dependencies": {},
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
