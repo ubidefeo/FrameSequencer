@@ -11,6 +11,14 @@ typedef struct{
 	uint16_t duration;
 }frameInfo;
 
+enum class FrameSequencerEvent {
+  SEQUENCE_START,
+  FRAME_START,
+  FRAME_END,
+  SEQUENCE_END
+};
+
+typedef void (*OnFrameSequencerEventCallback)();
 
 class FrameSequencer{
 
